@@ -1,0 +1,220 @@
+ a.header{
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #000000;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 30px;
+ }
+ a.header:hover{
+  color: #ffffff;
+ } 
+ div.first{
+   height: 700px;
+   background-color: #4a4545;
+   padding: 20px;
+ }
+ div.second{
+   height: 700px;
+ }
+ div.card{
+   border: 0;
+   border-radius: 0;
+ }
+ div.card-header{
+   font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    background-color: #4a4545;
+    padding:50px 36px 50px 36px;
+  }
+  p.card-text{
+   text-align: left;
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 2;
+   padding-top: 20px;
+   color: #ffffff;
+ }
+ p.card-text-second{
+   font-family: 'Lato', sans-serif;
+   text-align: left;
+   font-size: 40px;
+   font-weight: 700;
+   color:#ffffff;
+ }
+ p.card-text-form{
+   font-family: 'Lato', sans-serif;
+   text-align: center;
+   font-size: 25px;
+   color:#ffffff;
+   background-color: #000000;
+   padding: 8px;
+ }
+ div.text{
+   padding-top: 100px;
+ }
+ div.bg-img{
+   background-image: url(../images/gr-stocks-1ytUKz_Ms8U-unsplash.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+ div.container-form{
+   width: 70%;
+   padding: 150px 20px 0;
+ }
+ form{
+   padding: 30px 0 0;
+   }
+   input{
+     width: 100%;
+     height: 60px;
+     padding: 0 10px;
+     border: 5px solid #4a4545;
+   }
+   input:focus {
+       outline: none !important;
+       border:5px solid #d3d3d3;
+     }
+   button.send_button{
+     width: 100%;
+     height:auto;
+     padding: 8px 18px;
+     color:#ffffff;
+     background-color: #000000;
+     border: 1px solid #000000;
+     text-align: center;
+     border-radius: 5px;
+     font-family: 'Lato', sans-serif;
+     font-size: 24px;
+     font-weight: bold;
+   }
+   button:hover{
+    background-color: #857b7b;
+    border-color: #857b7b;
+   }
+   div.padding1{
+      padding: 50px;
+      background-color: #efefef;
+      height: auto;
+   }
+   div.padding2{
+    padding: 50px;
+    background-color: #efefef;
+    height: auto;
+ }
+   div.wrapper{
+      background-color: #ffffff;
+      padding: 50px;
+   }
+  img.photo{
+   padding: 10px;
+   height: auto;
+   width: auto;
+  }
+  h1.card-title-bio{
+   font-size: 30px;
+   line-height: 30px;
+   color: #525151;
+   font-family: 'Lato', sans-serif;
+   font-weight: bold;
+   padding: 10px;
+   margin: 0;
+  }
+  p.card-text-bio{
+   font-size: 25px;
+   line-height: 25px;
+   color: #525151;
+   font-family: 'Lato', sans-serif;
+   padding: 30px 10px;
+   margin: 0;
+  }
+  div.card-body-bio{
+   width: auto;
+  }
+  footer{
+    color: #857b7b;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 25px 50px;
+  }
+  a.footer{
+    color: #857b7b;
+  }
+  a.footer:hover{
+    color: #857b7b;
+    text-decoration: none;
+  }
+  p.paragraph-footer{
+    margin: 0;
+  }
+  div.div1footer{
+    padding: 0;
+  }
+  div.div2footer{
+    text-align: right;
+    padding: 0;
+  }
+  a.icon{
+    padding: 10px;
+  }
+  img.imgFooter{
+    max-width: 30px;
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+  }
+  img.imgFooter:hover{
+    background-color: #4a4545;
+    border-radius: 5px;
+  }
+  p.paragraph-footer{
+    color: #857b7b;
+  }
+  @media (max-width: 856px){
+    div.padding1{
+      padding: 50px 0;
+    }
+    div.padding2{
+      padding: 50px 0;
+    }
+    h1.card-title-bio{
+      padding: 10px 0;
+    }
+    p.card-text-bio{
+      padding: 30px 0;
+    }
+  }
+  @media (max-width: 575px){
+    div.div1footer{
+      text-align: center;
+    }
+    div.div2footer{
+      text-align: center;
+      margin-top: 10px;
+    }
+    div.wrapper{
+      padding: 0;
+    }
+    div.first{
+      height: auto;
+    }
+    div.text{
+      padding: 0;
+    }
+    div.col-sm-6.padding1{
+      padding: 0;
+    }
+    img.photo{
+      padding: 12px 0 0;
+    }
+    div.col-sm-6.padding2{
+      padding-bottom: 0;
+    }
+    div.card-header{
+      padding: 50px 0 50px 20px;
+    }
+  }
